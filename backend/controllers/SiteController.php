@@ -252,31 +252,42 @@ class SiteController extends Controller {
             return $this->goHome();
         }
         $model = new LoginForm();
-        $model->load(Yii::$app->request->post());
-        $models = PilotInhouseUser::find()->where(['emailaddress' => $model->emailaddress])->one();
-        if (($models->status) == '0') {
-            Yii::$app->session->setFlash('custom_message', 'You are currrently Blocked, Please contact to site admin for more info !');
-            return $this->render('login', [
-                        'model' => $model,
-            ]);
-        } else {
-            if ($model->load(Yii::$app->request->post()) && $model->login()) {
-                $models = PilotInhouseUser::find()->where(['id' => Yii::$app->user->identity->id])->one();
-                $models->last_access_time = time();
+        // $model->load(Yii::$app->request->post());
+        // $models = PilotInhouseUser::find()->where(['emailaddress' => $model->emailaddress])->one();
+        // if (($models->status) == '0') {
+            // Yii::$app->session->setFlash('custom_message', 'You are currrently Blocked, Please contact to site admin for more info !');
+            // return $this->render('login', [
+                        // 'model' => $model,
+            // ]);
+        // } else {
+           // if ($model->load(Yii::$app->request->post()) && $model->login()) {
+				 if ($model->load(Yii::$app->request->post())) {
+				$model->load(Yii::$app->request->post());
+				$models = PilotInhouseUser::find()->where(['emailaddress' => $model->emailaddress])->one();
+				if (($models->status) == '0') {
+					Yii::$app->session->setFlash('custom_message', 'You are currrently Blocked, Please contact to site admin for more info !');
+					return $this->render('login', [
+								'model' => $model,
+					]);
+				}
+				if($model->login()):
+					$models = PilotInhouseUser::find()->where(['id' => Yii::$app->user->identity->id])->one();
+					$models->last_access_time = time();
 
-                /*
-                 * saving log message
-                 */
-                $PilotLogs = new PilotLogs();
-                $PilotLogs->setpilotlog(Yii::$app->user->identity->id, 'user', 'info', Yii::$app->request->hostInfo . Yii::$app->request->url, 'user has been login successfully!');
+					/*
+					 * saving log message
+					 */
+					$PilotLogs = new PilotLogs();
+					$PilotLogs->setpilotlog(Yii::$app->user->identity->id, 'user', 'info', Yii::$app->request->hostInfo . Yii::$app->request->url, 'user has been login successfully!');
 
-                return $this->redirect('');
+					return $this->redirect('');
+				endif;
             } else {
                 return $this->render('login', [
                             'model' => $model,
                 ]);
             }
-        }
+        //}
     }
 
     /**
