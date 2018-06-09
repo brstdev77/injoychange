@@ -1,0 +1,216 @@
+<?php
+
+use yii\helpers\Html;
+use yii\web\Request;
+use yii\widgets\ActiveForm;
+use yii\web\View;
+use yii\helpers\Url;
+use frontend\models\PilotFrontUser;
+use backend\models\PilotCompanyCorevaluesname;
+use backend\models\PilotCheckinYourselfData;
+
+$baseurl = Yii::$app->request->baseurl;
+?>
+<!-- Daily Inspirations Modal-->
+<?php if (isset($answer1_model)): ?>
+    <div class="modal-body">
+        <div style="text-align: center;" class="container-fluid"></div>
+        <?php if ($tip_pos == 'first'): ?>
+            <div class="weekly_audio">
+                <div class="audio_image">
+                    <img src="/images/tushar.jpg">
+                </div>
+                <div class="audio_image1">
+                    <img src="../images/incorrect.png">
+                </div>
+                <p class="question_username">Tushar Watts</p>
+                <p class="user_hobby">Try again! Tushar does not play guitar, but he does play cricket.</p>
+                <p class="hobby_description">I enjoy the sportsmanship and aura of the game.</p>
+            </div>
+        <?php endif; ?>
+        <?php if ($tip_pos == 'second'): ?>
+            <div class="weekly_audio">
+                <div class="audio_image">
+                    <img src="http://injoyglobal.com/wp-content/uploads/2017/02/6.jpg">
+                </div>
+                <div class="audio_image1">
+                    <img src="../images/incorrect.png">
+                </div>
+                <p class="question_username">Elly Bannon</p>
+                <p class="user_hobby">Try again! Elly does not have a cat that sings.</p>
+                <p class="hobby_description">I have 1 pug named, Pearl and 1 cat named Skippy that live in NH and 1 fluffy kitten named Ollie that lives with me here in CA. Ollie just turned 3 and is my registered emotional support pet.</p>
+                <div class="hobby_image">
+                    <img src="/images/elly_Cats.png">
+                </div>
+            </div>
+        <?php endif; ?>
+        <?php if ($tip_pos == 'third'): ?>
+            <div class="weekly_audio">
+                <div class="audio_image">
+                    <img src="http://injoyglobal.com/wp-content/uploads/2017/02/^54A8FF015CA2AE515A5756B92BB06F3DC274C9D225BC0C8767^pimgpsh_fullsize_distr.jpg">
+                </div>
+                <div class="audio_image1">
+                    <img src="../images/incorrect.png">
+                </div>
+                <p class="question_username">Phil Dixon</p>
+                <p class="user_hobby">Try Again!  Phil did not say that.</p>
+                <p class="hobby_description">I did run with the Bulls in Pamplona, Spain.</p>
+            </div>
+        <?php endif; ?>
+    </div>
+
+    <div class="modal-footer">
+        <input type='hidden' name='tip_pos' id='tip_pos' value='<?= $tip_pos; ?>' />
+        <button class="sub-btn btn btn-warning" type="button" data-dismiss="modal">Try Again</button>      
+    </div>
+<?php endif; ?>
+<?php if (isset($answer2_model)): ?>
+    <div class="modal-body">
+        <div style="text-align: center;" class="container-fluid"></div>
+        <?php if ($tip_pos == 'first'): ?>
+            <div class="weekly_audio">
+                <div class="audio_image">
+                    <img src="/images/ryan.png">
+                </div>
+                <div class="audio_image1">
+                    <img src="../images/correct.png">
+                </div>
+                <p class="question_username">Ryan Waranauskas</p>
+                <p class="user_hobby">Ryan's favorite thing to do outside of work  is enjoying play guitar.</p>
+                <p class="hobby_description">I enjoy the freedom of expression and the ability to "speak another language" alongside other musicians. It is a unique bond that has not only created some of my favorite memories, but also ignited some of my closest friendships in my life so far. </p>
+            </div>
+        <?php endif; ?>
+        <?php if ($tip_pos == 'second'): ?>
+            <div class="weekly_audio">
+                <div class="audio_image">
+                    <img src="http://injoyglobal.com/wp-content/uploads/2017/02/7.jpg">
+                </div>
+                <div class="audio_image1">
+                    <img src="../images/correct.png">
+                </div>
+                <p class="question_username">Clea Martin</p>
+                <p class="user_hobby">Correct! Clea has singing cats.</p>
+                <p class="hobby_description">I have two cute and hilarious cats (Miko & Aria). I've had them for about 6 years! My favorite thing about them is that they sing back to me when I'm singing. Miko's favorite song to sing is Hakuna Matata because it sounds like the word "tuna" which he loves!</p>
+                <div class="hobby_image">
+                    <img src="/images/clea_cats.png">
+                </div>
+            </div>
+        <?php endif; ?>
+        <?php if ($tip_pos == 'third'): ?>
+
+            <div class="weekly_audio">
+                <div class="audio_image">
+                    <img src="/uploads/1509688959_59fc067f478f7.png">
+                </div>
+                <div class="audio_image1">
+                    <img src="../images/incorrect.png">
+                </div>
+                <p class="question_username">Kunal Khullar</p>
+                <p class="user_hobby">Try Again! Kunal did not say that.</p>
+                <p class="hobby_description">My trip to US with my family was special. We got to visit a beautiful country and spend time great people.  My family was with me so it was really special. </p>
+            </div>
+        <?php endif; ?>
+    </div>
+    <?php if ($tip_pos == 'first'): ?>
+
+        <div class="modal-footer">
+            <input type='hidden' name='tip_pos' id='tip_pos' value='<?= $tip_pos; ?>' />
+            <?php if (empty($answer_entry)): ?>
+                <button class="sub-btn btn btn-warning save_answer" type="submit">Submit 20 pts</button>     
+            <?php endif; ?>
+            <div class="dummy-text" style='font-size:13px'>
+                Note: <span style="font-weight:500">Congratulations! You got this question correct but if you haven't already, please check out the rest of the team's answers.</span>
+            </div>
+        </div>
+    <?php endif; ?>
+    <?php if ($tip_pos == 'second'): ?>
+
+        <div class="modal-footer">
+            <input type='hidden' name='tip_pos' id='tip_pos' value='<?= $tip_pos; ?>' />
+            <?php if (empty($answer_entry)): ?>
+                <button class="sub-btn btn btn-warning save_answer" type="submit">Submit 20 pts</button>     
+            <?php endif; ?>
+            <div class="dummy-text" style='font-size:13px'>
+                Note: <span style="font-weight:500">Congratulations! You got this question correct but if you haven't already, please check out the rest of the team's answers.</span>
+            </div>
+        </div>
+    <?php endif; ?>
+    <?php if ($tip_pos == 'third'): ?>
+        <div class="modal-footer">
+            <input type='hidden' name='tip_pos' id='tip_pos' value='<?= $tip_pos; ?>' />
+            <button class="sub-btn btn btn-warning" type="button" data-dismiss="modal">Try Again</button>      
+        </div>
+    <?php endif; ?>
+<?php endif; ?>
+<?php if (isset($answer3_model)): ?>
+    <div class="modal-body">
+        <div style="text-align: center;" class="container-fluid"></div>
+        <?php if ($tip_pos == 'first'): ?>
+            <div class="weekly_audio">
+                <div class="audio_image">
+                    <img src="/images/Abhipray.jpg">
+                </div>
+                <div class="audio_image1">
+                    <img src="../images/incorrect.png">
+                </div>
+                <p class="question_username">Abhipray Gupta</p>
+                <p class="user_hobby">Try again! Abhipray does not play guitar, but he enjoys spending time with Family.</p>
+                <p class="hobby_description">If you get enough time to spend with you family in you daily routine life you are the luckiest person in the world I try to spend most of my free time with my family. discuss with them how to make personal life better and more enjoyable.</p>
+            </div>
+        <?php endif; ?>
+        <?php if ($tip_pos == 'second'): ?>
+            <div class="weekly_audio">
+                <div class="audio_image">
+                    <img src="/images/veerdaman.JPG">
+                </div>
+                <div class="audio_image1">
+                    <img src="../images/incorrect.png">
+                </div>
+                <p class="question_username">VeerDaman Singh</p>
+                <p class="user_hobby">Try Again! Veer Daman does not have a cat that sings.</p>
+                <p class="hobby_description">I have a dog who is a German Spitz.</p>
+                <div class="hobby_image">
+                    <img src="/images/verrdamar_dog.png">
+                </div>
+            </div>
+        <?php endif; ?>
+        <?php if ($tip_pos == 'third'): ?>
+
+            <div class="weekly_audio">
+                <div class="audio_image">
+                    <img src="/uploads/1512029219_5a1fbc2342032.png">
+                </div>
+                <div class="audio_image1">
+                    <img src="../images/correct.png">
+                </div>
+                <p class="question_username">Pradeep Kumar</p>
+                <p class="user_hobby">Correct! Pradeep did say that.</p>
+                <p class="hobby_description">While I Visit on new places always make me fresh and I feel happy. I love to meet new people and learn about their culture. </p>
+            </div>
+        <?php endif; ?>
+    </div>
+    <?php if ($tip_pos == 'first'): ?>
+        <div class="modal-footer">
+            <input type='hidden' name='tip_pos' id='tip_pos' value='<?= $tip_pos; ?>' />
+            <button class="sub-btn btn btn-warning" type="button" data-dismiss="modal">Try Again</button>      
+        </div>
+    <?php endif; ?>
+    <?php if ($tip_pos == 'second'): ?>
+        <div class="modal-footer">
+            <input type='hidden' name='tip_pos' id='tip_pos' value='<?= $tip_pos; ?>' />
+            <button class="sub-btn btn btn-warning" type="button" data-dismiss="modal">Try Again</button>      
+        </div>
+    <?php endif; ?>
+    <?php if ($tip_pos == 'third'): ?>
+
+        <div class="modal-footer">
+            <input type='hidden' name='tip_pos' id='tip_pos' value='<?= $tip_pos; ?>' />
+            <?php if (empty($answer_entry)): ?>
+                <button class="sub-btn btn btn-warning save_answer" type="submit">Submit 20 pts</button>     
+            <?php endif; ?>
+            <div class="dummy-text" style='font-size:13px'>
+                Note: <span style="font-weight:500">Congratulations! You got this question correct but if you haven't already, please check out the rest of the team's answers.</span>
+            </div>
+        </div>
+    <?php endif; ?>
+<?php endif; ?>

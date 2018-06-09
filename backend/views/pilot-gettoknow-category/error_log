@@ -1,0 +1,15 @@
+[22-Oct-2017 09:48:27 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-didyouknow-category/index.php on line 12
+[02-Nov-2017 01:56:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-didyouknow-category/index.php on line 12
+[05-Nov-2017 20:00:49 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-didyouknow-category/index.php on line 12
+[17-Dec-2017 03:01:34 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-didyouknow-category/index.php on line 14
+[17-Dec-2017 11:51:15 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-didyouknow-category/index.php on line 14
+[18-Dec-2017 13:46:14 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-didyouknow-category/index.php on line 14
+[11-Mar-2018 16:17:21 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-didyouknow-category/index.php on line 14
+[16-Mar-2018 18:22:00 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-gettoknow-category/index.php on line 14
+[21-Mar-2018 13:08:21 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-gettoknow-category/index.php on line 14
+[31-Mar-2018 17:16:17 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-gettoknow-category/index.php on line 14
+[01-May-2018 04:34:57 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-gettoknow-category/index.php on line 14
+[07-May-2018 17:42:12 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-gettoknow-category/index.php on line 14
+[08-May-2018 14:49:15 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-gettoknow-category/index.php on line 14
+[12-May-2018 10:31:28 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-gettoknow-category/index.php on line 14
+[16-May-2018 07:03:09 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-gettoknow-category/index.php on line 14

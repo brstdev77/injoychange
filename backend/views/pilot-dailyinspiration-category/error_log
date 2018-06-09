@@ -1,0 +1,9 @@
+[22-Oct-2017 09:48:21 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-dailyinspiration-category/index.php on line 11
+[02-Nov-2017 01:55:56 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-dailyinspiration-category/index.php on line 11
+[17-Dec-2017 03:05:21 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-dailyinspiration-category/index.php on line 13
+[17-Dec-2017 11:55:02 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-dailyinspiration-category/index.php on line 13
+[18-Dec-2017 13:50:17 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-dailyinspiration-category/index.php on line 13
+[10-Apr-2018 12:24:58 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-dailyinspiration-category/index.php on line 13
+[12-Apr-2018 17:33:22 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-dailyinspiration-category/index.php on line 13
+[13-Apr-2018 16:12:58 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-dailyinspiration-category/index.php on line 13
+[12-May-2018 10:31:24 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-dailyinspiration-category/index.php on line 13

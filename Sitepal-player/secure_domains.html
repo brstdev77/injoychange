@@ -1,0 +1,173 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	<title>Oddcast Support - vh_sceneLoaded(), vh_talkStarted(), vh_talkEnded(), vh_audioProgress()</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="http://www.oddcast.com/support/styles/master.css">
+	
+	<script language="JavaScript" src="http://www.oddcast.com/support/scripts/master.js"></script>
+</head>	
+
+<body>
+
+<table id="tblContainer" cellspacing="0" align="center" border="0">
+	<tr>
+		<td id="tdContainer_corner_topleft"><img src="http://www.oddcast.com/support/images/common/tblContainer_corner_topleft.gif"></td>
+		
+		<td id="tdHeader"><table id="tblHeader">
+	<tr valign="bottom">
+		<td id="tdHeader_Logo"><img src="http://www.oddcast.com/support/images/common/header_logo.gif" alt="Oddcast"></td>
+		
+		<td id="tdHeader_Title"><img src="http://www.oddcast.com/support/images/common/header_VHostSupport.gif" alt="VHost Support" class="inline"></td>
+		
+	</tr>
+	
+	<tr>
+	<td colspan="2" align="right" class="content">
+	<form action="">
+<!-- Radio button options-->
+<a href ="sync_event.html"><img src = "full_off.png"style="float: right; width: 05%; margin-right: 1%; margin-bottom: 0.5em;">
+<a href ="syc_classic.html"><img src = "c_on.png"style="float: right; width: 05%; margin-right: 1%; margin-bottom: 0.5em;">	
+</table>
+
+
+</td>
+		
+		<td id="tdContainer_corner_topright"><img src="http://www.oddcast.com/support/images/common/tblContainer_corner_topright.gif"></td>
+	</tr>
+	
+	<tr>
+		<td id="tdContainer_edge_left"></td>
+
+		<td id="tdContent">
+		<p class="font12" align="center"><b>Synchronizing with character events.</b></p>
+		<p class="font9" align="center">Available for Studio & SitePal</p>
+		<table>
+<tr>
+<td align="left">
+<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH="90%">
+<SPAN CLASS="black10">
+
+<tr>
+
+    <td>
+
+	 <P class="content">The playback environment generates Event callbacks which correspond to different stages of playback. The site in which the host is embedded can use these Event callbacks to trigger other actions.
+<BR>
+
+    <P class="content"><b>On Scene Loaded:</b><BR> <i>vh_sceneLoaded()</i> - is generated when a Scene is loaded.
+<BR>
+    </P>
+    <P class="content"><b>On Talk Started:</b><BR> <i>vh_talkStarted()</i> - is generated when speech begins.</P>
+
+    <P class="content"><b>On Talk Ended:</b><BR> <i>vh_talkEnded()</i> - is generated when speech ends.</P>
+	<P class="content"><b>Audio Progress:</b><BR> <i>vh_audioProgress(percentPlayed)</i> - is generated at an audio progress interval.<br>
+	                                                               <i>setStatus(0,1,0)</i> - sets the progressInterval in vh_sceneLoaded</P>
+
+
+</tr>
+</table>
+</td>
+
+
+<td align="right">
+
+<TABLE CELLPADDING=5 CELLSPACING=0 BORDER=0 WIDTH="350">
+
+  <tr>
+    <td align="center"> <P>
+
+    <!-- Embed from the Vhost Studio -->
+<script language="JavaScript" type="text/javascript" src="http://vhss-d-vd.oddcast.com/vhost_embed_functions_v2.php?acc=14338&js=1"></script><script language="JavaScript" type="text/javascript">AC_VHost_Embed(14338,400,300,'',1,1, 55085, 0,1,0,'a8e39a4ac78448fde16d0ae103e00e4d',0);</script>
+
+
+
+
+
+
+<!-- Demo Logic -->
+<SCRIPT LANGUAGE="JavaScript">
+// clear the Box
+function clear() {
+	document.forms[0].message.value = "";
+	
+}
+
+</script>
+
+<a href="javaScript:SpeakSequence();">SpeakSequence</a> <br>
+<a href="javaScript:replay();">Replay</a> <br>
+
+
+</p></TD></TR>
+<TR>
+	<TD align="center">
+	<SPAN CLASS="content">
+	
+	<a href="javascript:clear();"><b>Clear the Box</b></a>
+	</SPAN>
+	</td>
+
+</tr>
+<TR><TD align="center">
+	<form action="#" name="messageForm">
+	<textarea cols=45 rows=7 name="message" READONLY></textarea>
+	</form>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+<FORM NAME="myForm" class="form">
+					<li>Letting the user enter the text in a form:&nbsp;<br>
+					<input type="text" name="textToSay" size="20" class="form">
+						<INPUT TYPE="button" VALUE="Say It!" NAME="SayButton" onClick="javascript:sayText(myForm.textToSay.value,3,1,3)" class="form">
+						</form>
+		<br>
+		<a href="javascript:setStatus(0,0,0);">setStatus(0,0,0)</a>,
+		<a href="javascript:setStatus(1,0,0);">setStatus(1,0,0)</a>,
+		<a href="javascript:setStatus(0,1,0);">setStatus(0,1,0)</a>,
+		<a href="javascript:setStatus(1,1,0);">setStatus(1,1,0)</a>
+		<p align="center"><b>
+<a href="javascript:history.back()">Back to Previous Page</a>
+&nbsp; &nbsp; &nbsp;
+<script>
+if (document.all)
+	document.write("View the code of this page by selecting View &gt; Source from your browser menu.");
+else
+	document.write("<a href=\"javascript:void(window.open('view-source:'+location.href,'ViewSource'))\">View the Source of this Page</a>");
+</script>
+</b></p></td>
+		
+		<td id="tdContainer_edge_right"></td>
+	</tr>
+
+	<tr>
+		<td id="tdContainer_corner_bottomleft"><img src="http://www.oddcast.com/support/images/common/tblContainer_corner_bottomleft.gif"></td>
+		
+		<td id="tdContainer_edge_bottom"></td>
+		
+		<td id="tdContainer_corner_bottomright"><img src="http://www.oddcast.com/support/images/common/tblContainer_corner_bottomright.gif"></td>
+	</tr>
+</table>
+
+<div id="divFooter">
+&copy; Oddcast Inc. All rights reserved. &nbsp; | &nbsp; 
+<a href="http://www.oddcast.com/user/terms_of_use.php" onclick="return windowOpen('http://www.oddcast.com/user/terms_of_use.php', 'footer', 600, 400, 'scrollbars=yes');" target="footer">Terms of Use</a> &nbsp; | &nbsp; 
+<a href="http://www.oddcast.com/user/terms_of_service.php" onclick="return windowOpen('http://www.oddcast.com/user/terms_of_service.php', 'footer', 600, 400, 'scrollbars=yes');" target="footer">Terms of Service</a> &nbsp; | &nbsp; 
+<a href="http://www.oddcast.com/user/privacy_policy.php" onclick="return windowOpen('http://www.oddcast.com/user/privacy_policy.php', 'footer', 600, 400, 'scrollbars=yes');" target="footer">Privacy Policy</a>
+</div>
+
+
+
+</body>
+</html>

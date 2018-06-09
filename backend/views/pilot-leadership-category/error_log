@@ -1,0 +1,9 @@
+[22-Oct-2017 09:48:27 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-leadership-category/index.php on line 12
+[02-Nov-2017 01:56:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-leadership-category/index.php on line 12
+[05-Nov-2017 20:00:49 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-leadership-category/index.php on line 12
+[17-Dec-2017 03:01:34 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-leadership-category/index.php on line 14
+[17-Dec-2017 11:51:15 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-leadership-category/index.php on line 14
+[18-Dec-2017 13:46:14 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-leadership-category/index.php on line 14
+[10-Apr-2018 11:09:11 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-leadership-category/index.php on line 14
+[12-Apr-2018 16:24:09 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-leadership-category/index.php on line 14
+[12-May-2018 10:31:31 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-leadership-category/index.php on line 14

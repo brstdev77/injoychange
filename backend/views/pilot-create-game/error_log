@@ -1,0 +1,15 @@
+[22-Oct-2017 09:48:18 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[02-Nov-2017 01:55:54 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[19-Nov-2017 17:12:38 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[26-Nov-2017 13:52:37 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[27-Nov-2017 06:17:48 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[27-Nov-2017 11:44:09 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[27-Nov-2017 13:52:30 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[30-Nov-2017 16:28:30 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[05-Dec-2017 00:31:10 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[17-Dec-2017 02:31:18 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[17-Dec-2017 11:20:59 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[18-Dec-2017 13:15:58 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[06-Apr-2018 23:55:59 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[09-Apr-2018 12:24:58 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11
+[12-May-2018 10:31:22 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-create-game/index.php on line 11

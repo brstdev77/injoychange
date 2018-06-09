@@ -1,0 +1,189 @@
+<?php
+/* @var $this yii\web\View */
+
+use yii\helpers\Html;
+use backend\models\PilotGameChallengeName;
+use backend\models\PilotCreateGame;
+
+$start_msg = '';
+$company_id = $_SESSION['company_id'];
+$comp_name = $_SESSION['comp_name'];
+if ($comp_name) {
+    $banner_name = $baseurl . '/images/' . strtolower($comp_name) . '.png';
+    if (!@file_get_contents($banner_name)) {
+        $banner_name = $baseurl . '/images/default_challenge.png';
+    }
+}
+$active_challenge = PilotCreateGame::find()->where(['challenge_company_id' => $company_id, 'status' => 1])->all();
+//echo "<pre>";print_r($active_challenge);die;
+if (!empty($active_challenge)):
+    //Active Challenge for Company
+    foreach ($active_challenge as $challenge):
+        $active_challenge_id = $challenge->challenge_id;
+        $challenge_obj = PilotGameChallengeName::find()->where(['id' => $active_challenge_id])->one();
+        $active_challenge_name = $challenge_obj->challenge_name;
+        $challenge_abbr_name = $challenge_obj->challenge_abbr_name;
+        $this->title = $comp_name;
+    endforeach;
+    $welcome_msg = 'Welcome to the ' . $comp_name . ' Challenge!';
+    /* if ($challenge_abbr_name == 'core'):
+      $content = 'The InJoy team and our significant others are talented and amazing.
+      This 30 Day Core Values Challenge is designed to take a few minutes each day to acknowledge the wins we are having in our own lives and as a group.
+      This Challenge will also make a game out of  practicing our Injoy HEART core values all while tracking our steps and being active.
+      Let\'s have fun with this Challenge and live out our HEART values.';
+      else:
+      $content = 'The Injoy team is talented and amazing. But think about how great would it be to take a few minutes each day to really acknowledge the wins we are having as a group,
+      the difference we are making in our lives to be healthy and stay active.
+      It\'s time to maintain a healthy, and balanced lifestyle. That\'s what this challenge is all about!';
+      endif; */
+    $content = 'Select your Challenge';
+    $start_msg = 'LET THE GAMES BEGIN!';
+else:
+    //Fetch the Most Recent Upcoming Challenge
+    $upcoming_challenge = PilotCreateGame::find()->where(['challenge_company_id' => $company_id, 'status' => 0])
+            ->orderBy(['challenge_start_date' => SORT_ASC])
+            ->one();
+
+    if (empty($upcoming_challenge)):
+        $this->title = $comp_name;
+        $challenge_abbr_name = 'core';
+        $content = 'Congratulations for your INCREDIBLE participation in the 30-Day HEART Core Values Challenge! Your commitment to making this first Injoy Core Values Challenge a resounding success is much appreciated. 
+                A big shout out to the significant others who participated in this Challenge. It was a pleasure to have you connect with the Injoy Team and provide inspiration and 
+                appreciation to all';
+
+        if (Yii::$app->user->isGuest):
+            $welcome_msg = 'Welcome to the 30 - Day Core Value Challenge!';
+            $links_reg_log = '';
+        else:
+            $welcome_msg = '';
+            $links_reg_log = 'disable';
+        endif;
+
+    else:
+        //Upcoming Challenge for Company
+        $upcoming_challenge_id = $upcoming_challenge->challenge_id;
+        $challenge_obj = PilotGameChallengeName::find()->where(['id' => $upcoming_challenge_id])->one();
+        $upcoming_challenge_name = $challenge_obj->challenge_name;
+        $challenge_abbr_name = $challenge_obj->challenge_abbr_name;
+        $this->title = ucwords($upcoming_challenge_name) . ' | ' . $comp_name;
+        $welcome_msg = 'Welcome to ' . ucwords($upcoming_challenge_name) . '!';
+        if ($challenge_abbr_name == 'core'):
+            $content = 'The InJoy team and our significant others are talented and amazing. 
+                  This 30 Day Core Values Challenge is designed to take a few minutes each day to acknowledge the wins we are having in our own lives and as a group.
+                  This Challenge will also make a game out of  practicing our Injoy HEART core values all while tracking our steps and being active.  
+                  Let\'s have fun with this Challenge and live out our HEART values.';
+        else:
+            $content = 'The Injoy team is talented and amazing. But think about how great would it be to take a few minutes each day to really acknowledge the wins we are having as a group, 
+                the difference we are making in our lives to be healthy and stay active.
+                It\'s time to maintain a healthy, and balanced lifestyle. That\'s what this challenge is all about!';
+        endif;
+        $current_date = date('Y-m-d');
+        $challenge_reg_date = date('Y-m-d', $upcoming_challenge->challenge_registration_date);
+        if ($current_date < $challenge_reg_date):
+            $links_reg_log = 'disable';
+        endif;
+    endif;
+endif;
+
+$baseurl = Yii::$app->request->baseurl;
+$this->registerCssFile($baseurl . '/css/above.css');
+?>
+<div class="site-index">
+    <div class="content main-dashboard-banners">
+        <div class=row>
+            <div class=col-md-12>
+                <div class=main-dashboard-banner>
+                    <img class=main-banner src="<?= $banner_name; ?>" alt=banner height=392 width=1180 />
+                </div> 
+            </div>
+        </div>
+        <div class=row>
+            <div class=col-md-12>
+
+                <h1 class="rtecenter"><strong><?= $welcome_msg; ?></strong></h1>
+                <div class="home_page_text">
+                    <?= $content; ?>
+                </div>
+                <?php //if ($links_reg_log != 'disable'):   ?>
+                <div class=login-infor>
+                    <?php
+                    if (Yii::$app->user->isGuest):
+                        ?>
+                        <ul class="">
+                            <?php
+                            foreach ($active_challenge as $challenge) {
+                                if ($challenge->challenge_id == '5') {
+                                    ?>
+                                    <li><a href="<?= $baseurl; ?>/core" class=name_user>CORE</a> </li>
+                                <?php } if ($challenge->challenge_id == '3') { ?>
+                                    <li><a href="<?= $baseurl; ?>/productivity" class=name_user>Productivity</a> </li>
+                                <?php } if ($challenge->challenge_id == '2') { ?>
+                                    <li><a href="<?= $baseurl; ?>/service" class=name_user>SERVICE</a> </li>
+                                <?php } if ($challenge->challenge_id == '4') { ?>
+                                    <li><a href="<?= $baseurl; ?>/leadership" class=name_user>LEADERSHIP</a> </li>
+                                <?php } if ($challenge->challenge_id == '1') { ?>
+                                    <li><a href="<?= $baseurl; ?>/teamwork" class=name_user>TEAMWORK</a> </li>
+                                    <?php
+                                }
+                            }
+                            ?>
+
+                        </ul>
+                        <?php
+                    else:
+                        ?>
+                        <ul class="">
+                            <?php
+                            foreach ($active_challenge as $challenge) {
+                                if ($challenge->challenge_id == '5') {
+                                    if (Yii::$app->user->identity->challenge_id == '5') {
+                                        echo '<li><a href="'.$baseurl.'/core/dashboard" class=name_user>CORE</a> </li>';
+                                    } else {
+                                        echo '<li><a href="javascript:void(0)" class=name_user>CORE</a> </li>';
+                                    }
+                                }
+                                if ($challenge->challenge_id == '3') {
+                                    if (Yii::$app->user->identity->challenge_id == '3') {
+                                        echo '<li><a href="'.$baseurl.'/productivity/dashboard" class=name_user>Productivity</a> </li>';
+                                    } else {
+                                        echo '<li><a href="javascript:void(0)" class=name_user>Productivity</a> </li>';
+                                    }
+                                }
+                                if ($challenge->challenge_id == '4') {
+                                    if (Yii::$app->user->identity->challenge_id == '4') {
+                                        echo '<li><a href="'.$baseurl.'/leadership/dashboard" class=name_user>LEADERSHIP</a> </li>';
+                                    } else {
+                                        echo '<li><a href="javascript:void(0)" class=name_user>LEADERSHIP</a> </li>';
+                                    }
+                                }
+                                if ($challenge->challenge_id == '2') {
+                                    if (Yii::$app->user->identity->challenge_id == '2') {
+                                        echo '<li><a href="'.$baseurl.'/service/dashboard" class=name_user>SERVICE</a> </li>';
+                                    } else {
+                                        echo '<li><a href="javascript:void(0)" class=name_user>SERVICE</a> </li>';
+                                    }
+                                }
+                                if ($challenge->challenge_id == '2') {
+                                    if (Yii::$app->user->identity->challenge_id == '2') {
+                                        echo '<li><a href="'.$baseurl.'/teamwork/dashboard" class=name_user>TEAMWORK</a> </li>';
+                                    } else {
+                                        echo '<li><a href="javascript:void(0)" class=name_user>TEAMWORK</a> </li>';
+                                    }
+                                }
+                            }
+                            ?>
+
+                        </ul>
+                    <?php endif; ?>
+                </div>
+                <?php // endif;     ?>
+                <h3><?= $start_msg; ?></h3>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    ul.header-options li:nth-child(2){
+        display: none;
+    }
+</style>

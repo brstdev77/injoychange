@@ -1,0 +1,84 @@
+[22-Oct-2017 09:49:55 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[22-Oct-2017 09:49:58 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[22-Oct-2017 09:50:00 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[02-Nov-2017 01:57:55 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[02-Nov-2017 01:57:57 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[02-Nov-2017 01:58:00 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[03-Nov-2017 10:04:23 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[03-Nov-2017 11:58:59 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[04-Nov-2017 01:03:49 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[10-Nov-2017 04:24:31 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[10-Nov-2017 19:33:56 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[11-Nov-2017 09:25:03 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[11-Nov-2017 12:02:11 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[12-Nov-2017 14:08:16 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[13-Nov-2017 23:25:33 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[14-Nov-2017 20:51:09 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[15-Nov-2017 19:50:51 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[16-Nov-2017 03:50:27 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[16-Nov-2017 05:04:22 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[19-Nov-2017 08:25:58 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[19-Nov-2017 13:30:12 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[26-Nov-2017 03:48:39 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[04-Dec-2017 00:18:43 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[31-Dec-2017 02:53:24 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[03-Jan-2018 20:04:03 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[03-Jan-2018 20:11:36 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[03-Jan-2018 20:49:26 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[03-Jan-2018 20:53:13 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[04-Jan-2018 04:12:08 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[04-Jan-2018 04:20:24 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[04-Jan-2018 04:46:11 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[04-Jan-2018 04:50:09 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[04-Jan-2018 06:35:54 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[04-Jan-2018 06:39:41 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[04-Jan-2018 09:52:38 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[04-Jan-2018 10:00:12 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[04-Jan-2018 12:39:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[04-Jan-2018 12:46:40 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[04-Jan-2018 13:13:09 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[04-Jan-2018 13:16:56 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[04-Jan-2018 15:44:29 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[04-Jan-2018 15:52:03 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[04-Jan-2018 16:18:32 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[04-Jan-2018 16:22:19 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[05-Jan-2018 07:10:51 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[05-Jan-2018 07:11:01 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[15-Jan-2018 00:59:15 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[11-Feb-2018 12:07:44 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[13-Feb-2018 23:57:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[19-Feb-2018 09:00:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[22-Feb-2018 00:02:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[22-Feb-2018 08:06:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[22-Feb-2018 14:25:03 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[23-Feb-2018 07:21:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[23-Feb-2018 21:37:42 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[24-Feb-2018 11:19:41 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[08-Mar-2018 14:46:57 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[18-Mar-2018 21:19:31 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[19-Mar-2018 03:38:28 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[19-Mar-2018 09:57:25 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[19-Mar-2018 16:16:22 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[19-Mar-2018 17:32:09 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[20-Mar-2018 06:28:59 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[14-Apr-2018 20:26:56 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[14-Apr-2018 20:27:34 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[14-Apr-2018 20:28:23 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[14-Apr-2018 20:30:16 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[15-Apr-2018 01:24:24 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[15-Apr-2018 01:24:34 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[15-Apr-2018 01:24:44 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[15-Apr-2018 04:10:29 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[15-Apr-2018 07:46:36 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[15-Apr-2018 07:46:46 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[15-Apr-2018 07:46:57 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[15-Apr-2018 10:10:39 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[15-Apr-2018 13:27:59 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[15-Apr-2018 13:28:10 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[15-Apr-2018 13:28:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[15-Apr-2018 16:44:26 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-html.php on line 7
+[15-Apr-2018 19:36:52 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-ticket.php on line 10
+[15-Apr-2018 19:37:02 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/common/mail/passwordResetToken-text.php on line 6
+[15-Apr-2018 19:37:13 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[28-Apr-2018 02:43:00 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9
+[07-May-2018 17:42:25 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/common/mail/send-image.php on line 9

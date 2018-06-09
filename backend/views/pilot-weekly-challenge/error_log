@@ -1,0 +1,14 @@
+[22-Oct-2017 09:48:44 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[02-Nov-2017 01:56:31 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[08-Nov-2017 01:54:01 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[27-Nov-2017 22:42:59 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[28-Nov-2017 15:13:25 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[28-Nov-2017 21:38:10 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[30-Nov-2017 17:23:03 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[08-Dec-2017 14:21:51 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[17-Dec-2017 02:54:00 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[17-Dec-2017 11:43:41 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[18-Dec-2017 13:38:41 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[08-Apr-2018 01:11:36 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[10-Apr-2018 02:18:39 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
+[12-May-2018 10:31:44 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-challenge/index.php on line 15
