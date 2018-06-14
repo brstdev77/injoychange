@@ -1,0 +1,10 @@
+[22-Oct-2017 09:48:41 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 11
+[02-Nov-2017 01:56:27 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 11
+[03-Nov-2017 16:40:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 11
+[17-Dec-2017 02:42:39 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[17-Dec-2017 11:32:20 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[18-Dec-2017 13:27:19 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[07-Apr-2018 18:52:39 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[08-Apr-2018 03:43:11 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[09-Apr-2018 18:43:55 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[12-May-2018 10:31:43 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 12

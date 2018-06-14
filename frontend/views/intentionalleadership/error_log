@@ -1,0 +1,183 @@
+[14-Feb-2018 12:45:24 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/dashboard.php on line 18
+[21-Feb-2018 01:38:55 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/dashboard.php on line 14
+[04-Mar-2018 18:20:46 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/daily.php on line 5
+[04-Mar-2018 18:30:11 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/highfive.php on line 12
+[04-Mar-2018 18:30:57 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/dashboard.php on line 16
+[04-Mar-2018 18:33:46 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/game_modals.php on line 12
+[04-Mar-2018 18:42:26 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoymore/public_html/frontend/views/test/highfiveusersearch.php on line 11
+[09-Mar-2018 20:35:47 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/tech_support.php on line 6
+[10-Mar-2018 01:35:39 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/highfive.php on line 12
+[10-Mar-2018 08:01:40 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/game_modals.php on line 12
+[10-Mar-2018 08:02:10 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/new_modals.php on line 12
+[10-Mar-2018 10:31:47 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/thankyou.php on line 8
+[10-Mar-2018 10:34:46 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/smartphone_modal.php on line 5
+[10-Mar-2018 11:31:17 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/dashboard.php on line 19
+[10-Mar-2018 18:44:35 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoymore/public_html/frontend/views/test/highfiveusersearch.php on line 11
+[10-Mar-2018 19:52:49 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/prize_modal.php on line 6
+[11-Mar-2018 16:20:18 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/daily.php on line 5
+[11-Mar-2018 16:20:18 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/dashboard.php on line 19
+[11-Mar-2018 16:20:18 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/game_modals.php on line 12
+[11-Mar-2018 16:20:19 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/highfive.php on line 12
+[11-Mar-2018 16:20:19 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoymore/public_html/frontend/views/test/highfiveusersearch.php on line 11
+[11-Mar-2018 16:20:19 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/knowtheteam.php on line 4
+[11-Mar-2018 16:20:19 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/new_modals.php on line 12
+[11-Mar-2018 16:20:19 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/howitwork.php on line 6
+[11-Mar-2018 16:20:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/tech_support.php on line 6
+[11-Mar-2018 16:20:20 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/thankyou.php on line 8
+[11-Mar-2018 16:20:20 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/smartphone_modal.php on line 5
+[11-Mar-2018 16:20:20 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/prize_modal.php on line 6
+[11-Mar-2018 16:20:20 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/welcome.php on line 8
+[11-Mar-2018 16:20:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/toolbox.php on line 4
+[13-Mar-2018 01:10:46 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/toolbox.php on line 4
+[13-Mar-2018 04:23:51 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/daily.php on line 5
+[16-Mar-2018 18:36:10 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/daily.php on line 5
+[16-Mar-2018 18:36:29 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/game_modals.php on line 12
+[16-Mar-2018 18:36:35 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/highfive.php on line 12
+[16-Mar-2018 18:36:58 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoymore/public_html/frontend/views/test/highfiveusersearch.php on line 11
+[16-Mar-2018 18:37:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/howitwork.php on line 6
+[16-Mar-2018 18:37:13 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/knowtheteam.php on line 4
+[16-Mar-2018 18:37:22 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/leaderboard.php on line 5
+[16-Mar-2018 18:37:32 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/new_modals.php on line 12
+[16-Mar-2018 18:37:39 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/prize_modal.php on line 6
+[16-Mar-2018 18:37:52 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/smartphone_modal.php on line 5
+[16-Mar-2018 18:38:08 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/tech_support.php on line 6
+[16-Mar-2018 18:38:23 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/thankyou.php on line 8
+[16-Mar-2018 18:38:30 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/toolbox.php on line 4
+[16-Mar-2018 18:38:42 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/welcome.php on line 8
+[17-Mar-2018 06:48:17 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/knowtheteam.php on line 4
+[17-Mar-2018 12:12:52 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/howitwork.php on line 6
+[19-Mar-2018 07:00:48 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/dashboard.php on line 19
+[19-Mar-2018 13:20:58 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/welcome.php on line 8
+[21-Mar-2018 12:53:56 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/daily.php on line 5
+[21-Mar-2018 12:57:21 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/toolbox.php on line 4
+[21-Mar-2018 12:57:41 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/welcome.php on line 8
+[21-Mar-2018 12:58:37 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/highfive.php on line 12
+[21-Mar-2018 12:59:02 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/thankyou.php on line 8
+[21-Mar-2018 13:00:02 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/dashboard.php on line 20
+[21-Mar-2018 13:00:31 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/howitwork.php on line 6
+[21-Mar-2018 13:01:46 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/new_modals.php on line 12
+[21-Mar-2018 13:02:11 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/leaderboard.php on line 5
+[21-Mar-2018 13:02:42 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/prize_modal.php on line 6
+[21-Mar-2018 13:02:56 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/knowtheteam.php on line 4
+[21-Mar-2018 13:03:16 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/game_modals.php on line 12
+[21-Mar-2018 13:04:17 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/tech_support.php on line 6
+[21-Mar-2018 13:10:26 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/smartphone_modal.php on line 5
+[21-Mar-2018 13:11:57 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoymore/public_html/frontend/views/test/highfiveusersearch.php on line 11
+[31-Mar-2018 17:00:07 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/daily.php on line 5
+[31-Mar-2018 17:05:38 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/welcome.php on line 8
+[31-Mar-2018 17:05:43 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/toolbox.php on line 4
+[31-Mar-2018 17:07:23 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/highfive.php on line 12
+[31-Mar-2018 17:07:37 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/thankyou.php on line 8
+[31-Mar-2018 17:08:33 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/howitwork.php on line 6
+[31-Mar-2018 17:08:58 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/dashboard.php on line 20
+[31-Mar-2018 17:09:28 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/new_modals.php on line 12
+[31-Mar-2018 17:10:23 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/prize_modal.php on line 6
+[31-Mar-2018 17:10:37 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/game_modals.php on line 12
+[31-Mar-2018 17:10:57 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/knowtheteam.php on line 4
+[31-Mar-2018 17:11:13 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/leaderboard.php on line 5
+[31-Mar-2018 17:12:42 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/tech_support.php on line 6
+[31-Mar-2018 17:17:17 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/smartphone_modal.php on line 5
+[31-Mar-2018 17:19:12 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoymore/public_html/frontend/views/test/highfiveusersearch.php on line 11
+[10-Apr-2018 21:22:47 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/daily.php on line 5
+[10-Apr-2018 21:27:31 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/toolbox.php on line 4
+[10-Apr-2018 21:27:56 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/welcome.php on line 8
+[10-Apr-2018 21:28:42 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/thankyou.php on line 8
+[10-Apr-2018 21:29:21 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/highfive.php on line 13
+[10-Apr-2018 21:30:52 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/dashboard.php on line 20
+[10-Apr-2018 21:31:27 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/howitwork.php on line 6
+[10-Apr-2018 21:31:52 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/new_modals.php on line 12
+[10-Apr-2018 21:33:02 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/game_modals.php on line 12
+[10-Apr-2018 21:33:27 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/leaderboard.php on line 5
+[10-Apr-2018 21:33:42 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/prize_modal.php on line 6
+[10-Apr-2018 21:34:07 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/knowtheteam.php on line 4
+[10-Apr-2018 21:34:22 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/test/tech_support.php on line 6
+[10-Apr-2018 21:40:51 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/test/smartphone_modal.php on line 5
+[10-Apr-2018 21:42:27 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoymore/public_html/frontend/views/test/highfiveusersearch.php on line 13
+[24-Apr-2018 16:55:39 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/daily.php on line 5
+[24-Apr-2018 16:55:39 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/daily.php on line 5
+[24-Apr-2018 16:55:42 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/daily.php on line 5
+[24-Apr-2018 16:55:44 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/daily.php on line 5
+[24-Apr-2018 16:55:44 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/dashboard.php on line 20
+[24-Apr-2018 16:55:44 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/dashboard.php on line 20
+[24-Apr-2018 16:55:46 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/dashboard.php on line 20
+[24-Apr-2018 16:55:49 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/dashboard.php on line 20
+[24-Apr-2018 16:55:49 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/game_modals.php on line 12
+[24-Apr-2018 16:55:49 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/game_modals.php on line 12
+[24-Apr-2018 16:55:51 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/game_modals.php on line 12
+[24-Apr-2018 16:55:53 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/game_modals.php on line 12
+[24-Apr-2018 16:55:54 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/highfive.php on line 13
+[24-Apr-2018 16:55:54 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/highfive.php on line 13
+[24-Apr-2018 16:55:56 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/highfive.php on line 13
+[24-Apr-2018 16:55:58 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/highfive.php on line 13
+[24-Apr-2018 16:56:01 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoymore/public_html/frontend/views/customer/highfiveusersearch.php on line 13
+[24-Apr-2018 16:56:01 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoymore/public_html/frontend/views/customer/highfiveusersearch.php on line 13
+[24-Apr-2018 16:56:03 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoymore/public_html/frontend/views/customer/highfiveusersearch.php on line 13
+[24-Apr-2018 16:56:06 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoymore/public_html/frontend/views/customer/highfiveusersearch.php on line 13
+[24-Apr-2018 16:56:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/howitwork.php on line 6
+[24-Apr-2018 16:56:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/howitwork.php on line 6
+[24-Apr-2018 16:56:08 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/howitwork.php on line 6
+[24-Apr-2018 16:56:10 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/howitwork.php on line 6
+[24-Apr-2018 16:56:11 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/knowtheteam.php on line 4
+[24-Apr-2018 16:56:11 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/knowtheteam.php on line 4
+[24-Apr-2018 16:56:13 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/knowtheteam.php on line 4
+[24-Apr-2018 16:56:15 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/knowtheteam.php on line 4
+[24-Apr-2018 16:56:15 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/leaderboard.php on line 5
+[24-Apr-2018 16:56:16 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/leaderboard.php on line 5
+[24-Apr-2018 16:56:18 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/leaderboard.php on line 5
+[24-Apr-2018 16:56:20 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/leaderboard.php on line 5
+[24-Apr-2018 16:56:20 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/new_modals.php on line 12
+[24-Apr-2018 16:56:20 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/new_modals.php on line 12
+[24-Apr-2018 16:56:23 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/new_modals.php on line 12
+[24-Apr-2018 16:56:25 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/new_modals.php on line 12
+[24-Apr-2018 16:56:25 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/prize_modal.php on line 6
+[24-Apr-2018 16:56:25 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/prize_modal.php on line 6
+[24-Apr-2018 16:56:27 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/prize_modal.php on line 6
+[24-Apr-2018 16:56:30 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/prize_modal.php on line 6
+[24-Apr-2018 16:56:30 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/smartphone_modal.php on line 5
+[24-Apr-2018 16:56:30 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/smartphone_modal.php on line 5
+[24-Apr-2018 16:56:32 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/smartphone_modal.php on line 5
+[24-Apr-2018 16:56:34 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/smartphone_modal.php on line 5
+[24-Apr-2018 16:56:35 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/tech_support.php on line 6
+[24-Apr-2018 16:56:35 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/tech_support.php on line 6
+[24-Apr-2018 16:56:37 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/tech_support.php on line 6
+[24-Apr-2018 16:56:39 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/tech_support.php on line 6
+[24-Apr-2018 16:56:39 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/thankyou.php on line 8
+[24-Apr-2018 16:56:40 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/thankyou.php on line 8
+[24-Apr-2018 16:56:42 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/thankyou.php on line 8
+[24-Apr-2018 16:56:44 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/thankyou.php on line 8
+[24-Apr-2018 16:56:44 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/toolbox.php on line 4
+[24-Apr-2018 16:56:44 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/toolbox.php on line 4
+[24-Apr-2018 16:56:47 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/toolbox.php on line 4
+[24-Apr-2018 16:56:49 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoymore/public_html/frontend/views/customer/toolbox.php on line 4
+[24-Apr-2018 16:56:49 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/welcome.php on line 8
+[24-Apr-2018 16:56:49 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/welcome.php on line 8
+[24-Apr-2018 16:56:51 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/welcome.php on line 8
+[24-Apr-2018 16:56:54 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/frontend/views/customer/welcome.php on line 8
+[11-May-2018 22:37:59 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/intentionalleadership/daily.php on line 5
+[11-May-2018 22:38:04 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/dashboard.php on line 20
+[11-May-2018 22:38:09 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/game_modals.php on line 14
+[11-May-2018 22:38:14 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/intentionalleadership/highfive.php on line 13
+[11-May-2018 22:38:22 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoychange/public_html/frontend/views/intentionalleadership/highfiveusersearch.php on line 13
+[11-May-2018 22:38:26 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/intentionalleadership/howitwork.php on line 6
+[11-May-2018 22:38:31 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/intentionalleadership/knowtheteam.php on line 4
+[11-May-2018 22:38:38 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/leaderboard.php on line 5
+[11-May-2018 22:38:46 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/new_modals.php on line 12
+[11-May-2018 22:38:54 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/prize_modal.php on line 6
+[11-May-2018 22:39:01 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/smartphone_modal.php on line 5
+[11-May-2018 22:39:07 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/intentionalleadership/tech_support.php on line 6
+[11-May-2018 22:39:13 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/thankyou.php on line 8
+[11-May-2018 22:39:19 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/intentionalleadership/toolbox.php on line 4
+[11-May-2018 22:39:25 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/welcome.php on line 8
+[25-May-2018 01:29:08 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/intentionalleadership/howitwork.php on line 6
+[25-May-2018 08:25:09 UTC] PHP Fatal error:  Call to a member function getTotalCount() on null in /home/injoychange/public_html/frontend/views/intentionalleadership/highfiveusersearch.php on line 13
+[26-May-2018 07:55:53 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/intentionalleadership/knowtheteam.php on line 4
+[26-May-2018 11:32:11 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/dashboard.php on line 20
+[26-May-2018 22:18:06 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/welcome.php on line 8
+[26-May-2018 23:49:10 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/intentionalleadership/tech_support.php on line 6
+[27-May-2018 04:23:10 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/intentionalleadership/daily.php on line 5
+[27-May-2018 06:37:30 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/prize_modal.php on line 6
+[27-May-2018 18:49:15 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/game_modals.php on line 14
+[28-May-2018 19:39:09 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/smartphone_modal.php on line 5
+[29-May-2018 19:16:57 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/intentionalleadership/leaderboard.php on line 5
+[30-May-2018 08:14:17 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/intentionalleadership/toolbox.php on line 4
+[30-May-2018 18:04:42 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/intentionalleadership/highfive.php on line 13

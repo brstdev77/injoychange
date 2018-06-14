@@ -1,0 +1,16 @@
+[13-Oct-2017 19:28:43 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[14-Oct-2017 14:41:19 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[14-Oct-2017 16:21:56 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[02-Nov-2017 01:59:52 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[04-Nov-2017 01:08:58 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[11-Nov-2017 14:42:07 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[17-Nov-2017 11:31:54 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[17-Nov-2017 18:18:32 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[17-Nov-2017 20:46:28 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[18-Nov-2017 01:54:52 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[19-Nov-2017 05:47:15 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[20-Nov-2017 01:39:52 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[21-Mar-2018 20:10:44 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[22-Mar-2018 02:29:41 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[22-Mar-2018 18:54:57 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6
+[30-May-2018 17:59:11 UTC] PHP Fatal error:  Class 'yii\db\Migration' not found in /home/injoychange/public_html/console/migrations/m130524_201442_init.php on line 6

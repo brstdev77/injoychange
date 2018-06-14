@@ -1,0 +1,2 @@
+[26-May-2018 04:15:49 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/recognition/dashboard.php on line 13
+[28-May-2018 12:13:43 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/frontend/views/recognition/game_modals.php on line 12

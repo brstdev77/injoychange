@@ -1,0 +1,1054 @@
+/* login css start here*/
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(font/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(font/SourceSansPro-Regular_2.ttf);
+}
+@font-face {
+    font-family: SourceSansPro-Semib;
+    src: url(font/SourceSansPro-SemiboldIt_2.ttf);
+}
+@font-face {
+    font-family: SourceSansPro-Semib;
+    src: url(font/SourceSansPro-Semibold.otf);
+}
+
+.col-lg-3.col-lg-offset-4 {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px;
+    border-top: 3px solid #00c0ef;
+    box-shadow: 1px 1px 3px 1px;
+    height: auto;
+    margin-left: 65%;
+    margin-top: 11%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 340px;
+}
+.wlcm {
+    color: #00c0ef;
+    font-family: SourceSansPro-Regular;
+    font-size: 25px;
+    margin-bottom: 27px;
+    padding-top: 25px;
+    text-align: center;
+}
+.log {
+    color: #9d9d9d;
+    font-family: Source Sans Pro Semib;
+    font-size: 13px;
+    margin-bottom:0px;
+}
+.col-lg-3.col-lg-offset-4 > img {
+    margin-left: 10px;
+    padding-left: 87px;
+    padding-top: 23px;
+    width: 192px;
+}
+.homelogintext {
+    background: rgba(255, 255, 255, 0.76) none repeat scroll 0 0;
+    border-left: 5px solid #00c0ef;
+    color: #25bdfe;
+    font-size: 38px;
+    font-weight: bold;
+    left: 13%;
+    line-height: 44px; 
+    padding: 27px 45px;
+    position: absolute;
+    top: 50%;
+}
+.loginhead {
+    left: 13%;
+    position: absolute;
+    top: 2%;
+}
+.reg{
+    color: #00C0EF;
+    float:left;
+    margin-top:34px;
+    padding-left:106px;
+    font-size:11px;
+}
+.login{
+    width: 100%;
+    background: #00C0EF;
+    color:white;
+    height:34px;
+    border:none;
+}
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom:0px;
+}
+
+.site-login{
+    background-image: url("../img/loginpage/background1.jpg");
+    background-size: 100% 100%;
+    padding-bottom: 0px;
+}
+.field-loginform-emailaddress .input-group {
+    width: 100%;
+}
+.field-loginform-password .input-group {
+    width: 100%;
+}
+
+.site-login .input-group .fa.fa-user, .site-login .input-group .fa.fa-lock {
+    position: absolute;
+    z-index: 99999;
+    right: -4px;
+    padding: 17px;
+    color:gray;
+}
+.input-groups .fa.fa-lock {
+    position: absolute;
+    z-index: 99999;
+    right: 8px;
+    padding: 10px;
+    color:gray;
+}
+.site-login .control-label {
+    display: none;
+}
+.form-group.field-loginform-emailaddress.required{
+    margin-top:10px;
+}
+
+.checkbox > label {
+    color:gray;
+    font-family:SourceSansPro-Regular;
+    font-size:11px;
+}
+
+/* login css end here*/
+
+/* dashboard css start here */
+
+.row.comdetail {
+    background: white;
+    margin: 12px 21px 31px 17px;
+    border-top: 3px solid #F39C11;
+}
+
+.row.manager{
+    background: white;
+    margin: 12px 21px 31px 17px;
+    border-top: 3px solid #24B9F3;
+}
+.row.teams{
+    background: white;
+    margin: 12px 21px 31px 17px;
+    border-top: 3px solid #DD4A38;
+}
+.row.agreement{
+    background: white;
+    margin: 12px 21px 31px 17px;
+    border-top: 3px solid #0AC2A0;
+}
+.dasboard{
+    border:none;
+    background:#3C8DBC;
+    color:white;
+    margin-left:20px;
+    padding:2px 13px 2px 13px;
+}
+.input-groups .fa.fa-users {
+    left: 10px;
+    padding: 10px;
+    position: absolute;
+    z-index: 99999;
+    border-right:1px solid #ccc;
+}
+.field-dashboard-team_name_1 .input-group {
+    width: 100%;
+}
+.input-groups .form-control{
+    padding-left:38px;
+}
+.input-groups .fa.fa-user{
+    left: 10px;
+    right:auto;
+    padding: 10px 11px;
+    position: absolute;
+    z-index: 99999;
+    border-right:1px solid #ccc;
+}
+.input-groups .fa.fa-fax{
+    left: 16px;
+    padding: 10px;
+    position: absolute;
+    z-index: 99999;
+    border-right:1px solid #ccc;
+}
+.input-groups .fa.fa-phone{
+    left: 16px;
+    padding: 10px 11px;
+    position: absolute;
+    z-index: 99999;
+    border-right:1px solid #ccc;
+}
+
+.input-groups .fa.fa-envelope{
+    left: 10px;
+    padding: 10px;
+    position: absolute;
+    z-index: 99999;
+    border-right:1px solid #ccc;
+}
+.input-groups .fa.fa-calendar{
+    left: 16px;
+    padding: 10px;
+    position: absolute;
+    z-index: 99999;
+    border-right:1px solid #ccc;
+}
+.input-groups .fa.fa-map-marker{
+    left: 10px;
+    padding: 10px 12px;
+    position: absolute;
+    z-index: 99999;
+    border-right:1px solid #ccc;
+}
+.field-dashboard-manager .form-control{
+    width:50%;
+}
+.footer {
+    background-color: #023040;
+    border-top: 1px solid #023040;
+    color: #ffffff;
+    height: 60px;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+.footer_right, .footer_left {
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+.footer_right li {
+    display: inline;
+}
+.footer_right li a {
+    color: #e9c109;
+}
+.field-loginform-rememberme #loginform-rememberme.remember {
+    margin-top: 2px;
+}
+.footer_right li:first-child::after {
+    color: #647074;
+    content: "|";
+    padding-left: 4px;
+}
+/* manageclents css for gridview start here*/
+.summary {
+    display: none;
+}
+.image-wrapper {
+    border: 1px solid #cccccc;
+    border-radius: 39px;
+    box-shadow: 1px 2px 2px 0 #cccccc;
+    float: left;
+    height: 40px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0;
+    width: 40px;
+}
+
+.image-wrapper > img {
+    width: 100%;
+    height:100%;
+}
+.table.table-striped.table-bordered a {
+    color: black;
+    padding: 0px 6px;
+    margin-right:5px;
+
+}
+.table.table-striped.table-bordered a:last-child {
+    margin-right: 0;
+}
+.table.table-striped.table-bordered thead a {
+    padding: 0;
+}
+.grid.btn.btn-default {
+    background: #F4F4F4;
+}
+td .comname {
+    margin-top: 10px;
+}
+.main-header .logo{
+    background-color: #ffffff !important;
+}
+.grid_verical td {
+    vertical-align: middle !important;
+}
+.btn.btn-default.pull-right .fa.fa-plus {
+    background-color: #E7E7E7;
+    border-left: 1px solid #ccc;
+    padding: 6px;
+    margin-left:8px;
+}
+.btn.btn-default.pull-right {
+    padding: 0 0 0 8px;
+}
+#w0-filters > td > input{
+    background-color: #F9F9F9;
+    border-radius:4px;
+}
+.agreement_file {
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+.exist{
+    display:none;
+}
+.existimage{
+    display:none;
+}
+.agreement_file.hide{
+    display:none;
+}
+.cancel_btn .btn.btn-default {
+    margin-left: 15px;
+}
+#company-status  .radio > label {
+    float: left;
+    margin-right:190px;
+    margin-bottom:15px;
+}
+.field-company-status .help-block.help-block-error {
+    float: left;
+    width: 100%;
+}
+.field-pilotinhouseuser-status .help-block.help-block-error {
+    float: left;
+    width: 100%;
+}
+#pilotinhouseuser-status  .radio > label{
+    float: left;
+    margin-right:150px;
+    margin-bottom:15px;   
+}
+.pagination{
+    margin-left:20px;
+}
+#agreement_file{
+    margin-bottom:33px;
+}
+.col-lg-6 .box.box-warning {
+    padding: 0 10px;
+}
+.font_size {
+    font-size: 36px;
+}
+.color_white {
+    color: white;
+    padding-left:15px;
+    float:left;
+}
+.digital_high{
+    background-color: #45BFF0;  
+    margin-bottom:10px;
+    height:68px;
+}
+.share_win{
+    background-color: #FF9C00;   
+    margin-bottom:10px;
+    height:68px;
+}
+.weekly_chall{
+    background-color: #EE3B24;   
+    height:68px;
+    margin-bottom:20px;
+}
+.total_action{
+    background-color: #605ca8;   
+    height:68px;
+    margin-bottom:20px;
+}
+.register_user {
+    background-color: #39CCCC;
+    height: 68px;
+    margin-bottom: 20px;
+}
+.score_user {
+    background-color: #D81B60;
+    height: 68px;
+    margin-bottom: 20px;
+}
+.future {
+    height: 111px;
+    border:1px solid #ccc;
+    margin-bottom: 5px;
+}
+.future1
+{
+	height: 35px;
+    border:1px solid #ccc;
+    margin-bottom: 5px;
+}
+.personal {
+    height: 111px;
+    border:1px solid #ccc;
+    margin-bottom:5px;
+}
+.work {
+    height: 111px;
+    border:1px solid #ccc;
+    margin-bottom:5px;
+}
+.box.box-info.survey {
+    padding: 0 10px 10px 10px;
+}
+.pull-right.icon_width2 {
+    margin-right: 23px;
+    font-size: 51px;
+}
+.pull-right.icon_width {
+    margin-right: 20px;
+    margin-top: 3px;
+    font-size: 43px;
+}
+.digital_high .pull-right.icon_width{
+    color:#2A88AE;
+} 
+.weekly_challenge .pull-right.icon_width{
+    color:#B42B18;
+}
+.share_win .pull-right.icon_width2{
+    color:#CE7F00;
+}
+.total_action .pull-right.icon_width{
+    color:#413d89;
+}
+.weekly_chall .pull-right.icon_width{
+    color:#b60300;
+}
+.register_user .pull-right.icon_width{
+    color:#1aadad;
+}
+.score_user .pull-right.icon_width{
+    color:#b10039;
+}
+.share_win .pull-right.icon_width{
+    color:#CE7F00;
+}
+.responsetext, .successtext , .deletetext
+{
+	color:#ff0000;
+}
+.pull-right.bar {
+    margin-top: 4px;
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+	height:100px;
+}
+.pull-right.bar1 {
+    margin-top: 32px;
+    padding:0px;
+}
+.survey_report{
+	padding:0px !important;
+}
+.chart-legend.clearfix > li
+{
+	font-size:12px;
+}
+.survey_report .sparkline {
+    text-align: center;
+}
+.chart-legend
+{
+	margin-top:33px;
+}
+.reporttext
+{
+	font-size:13px;
+}
+.reporttext1
+{
+	font-size:13px;
+	margin-right:5px;
+}
+.pull-left.cont {
+   /*  margin-left: 10px;*/
+    margin-top: 8px; 
+}
+.pull-left.cont span {
+    margin-right: 30px;
+}
+.check {
+    margin-top: 10px;
+    height:22px;
+}
+.check1 {
+    margin: 7px auto;
+    max-width: 429px;
+    overflow: hidden;
+    text-align: center;
+}
+.check1 div {
+	float:left;
+}
+.align div{
+	text-align:center;
+}
+.inner_check {
+    margin-top: 5px;
+}
+.red {
+    background-color: red;
+    width: 19px;
+    height: 16px;
+    float: left;
+    margin-right: 5px;
+}
+.digital_high_five .red
+{
+	float:none;
+}
+.inner_check > div {
+    float: left;
+    margin-right:10px;
+}
+.content-bottom{
+	border-bottom:1px solid #ccc;
+}
+.check > div {
+    float: left;
+    margin-right:10px;
+}
+.btn-default.custom_btn {
+    padding: 2px 4px;
+}
+.member_img {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-right:7px;
+}
+.input-group-lock .fa.fa-lock {
+    border-right:1px solid #ccc;
+    padding: 10px;
+    position: absolute;
+
+    z-index: 99999;
+}
+.box-item{
+    margin:5px;
+    position: relative;
+}
+.box-item.is-positioning-post-drag {
+    background: #C90;
+    z-index: 2; /* keep dragged item on top */
+}
+.content-dailyinspiration{
+    overflow:hidden;
+}
+/*for drag and drop */
+
+#my-awesome-dropzone .dz-default.dz-message {
+    float: left;
+    left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+}
+#my-awesome-dropzone.dz-started .dz-default.dz-message {
+    display: none;
+}
+/*#my-awesome-dropzone .dz-default.dz-message {
+  background: #f3f6fb none repeat scroll 0 0;
+  border: 2px dashed #9c9d9f;
+  height: 200px;
+  margin-bottom: 20px;
+}*/
+#my-awesome-dropzone .dz-default.dz-message > span {
+    float: left;
+    margin-left: 100px;
+    padding: 6px 62px;
+    text-align: center;
+}
+/*#my-awesome-dropzone .dz-default.dz-message > span {
+  float: left;
+  padding: 27px 182px;
+  text-align: center;
+}*/
+.dz-default.dz-message b {
+    float: left;
+    font-size: 18px;
+    margin: 10px 0;
+    width: 100%;
+}
+.dz-error-message {
+    display: none;
+}
+.dz-success-mark {
+    display: none;
+}
+.dz-error-mark{
+    display: none;  
+}
+.dz-filename{
+    display:none;
+}
+.dz-details{
+    display:none;
+}
+.no_content {
+    text-align: center;
+    padding: 50px;
+}
+.box-item > img{
+    float:left;
+    border-radius:5px;
+}
+.fa.fa-trash-o.img_delete {
+    background: none repeat scroll 0 0 #f2f2f2;
+    box-shadow: 0 0 1px #f2f2f2;
+    color: #ff0000;
+    cursor: pointer;
+    left: 10px;
+    padding: 10px;
+    position: absolute;
+    right: auto;
+    top: 10px;
+}
+.img_delete1 {
+    background: #F2F2F2 none repeat scroll 0 0;
+    box-shadow: 0 0 1px #F2F2F2;
+    padding: 0px 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #000 !important;
+}
+.breadcrumb {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    margin-bottom: 0;
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+.fa.fa-tachometer.bread_crumbs {
+    padding-top: 2px;
+    position: absolute;
+    right: 158px;
+}
+.breadcrumb > li + li::before {
+    color: #ccc;
+    content: "> ";
+    padding: 0 5px;
+}
+#pilotweeklychallenge-category_id {
+    display: none;
+}
+/* add new video css*/
+.field-pilotweeklychallenge-category_id .help-block.help-block-error {
+    display: none;
+}
+/* css for weekly video addedd form on week validation error*/
+#login-dash.custom-error .form-group.field-week.has-success label {
+    color: #dd4b39;
+}
+
+#login-dash.custom-error #week.form-control {
+    border-color: #ff0000;
+}
+/*on edit popup hide field of category id which contain week id*/
+.form-group.field-week_id.required {
+    display: none;
+}
+
+#edit-popup-weekly-video.custom-error #week_edit.form-control {
+    border-color: #ff0000;
+}
+#edit-popup-weekly-video.custom-error .form-group.field-week_edit.has-success label {
+    color: #dd4b39;
+}
+
+/* calender page css */
+#add-event .form-group.field-color, #edit-event .form-group.field-color, #edit-event .form-group.field-piloteventcalender-id {
+    display: none;
+}
+
+.overlay .span-loading-text {
+    font-size: 20px;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+}
+.modal-header.box.box-info.add-reminder {
+    border-bottom: 1px solid #e1e1e1 !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#edit_event_reminder .modal-event-edit-form, #edit_event_reminder .modal-footer {
+    display: none;
+}
+#edit_event_reminder .form-control[readonly], #add-event .form-control[readonly]{
+    background: #fff;
+}
+#edit_event_reminder .modal-body {
+    min-height: 200px;
+}
+.fc-button-group .fc-event-list.fc-button.fc-state-default {
+    padding: 3.6px 10px;
+}
+.fc-button-group .fc-event-list.fc-button.fc-state-default:hover, .fc-button-group .fc-event-list.fc-button.fc-state-default:active, 
+.fc-button-group .fc-event-list.fc-button.fc-state-default:focus{
+    color: #444444;
+}
+#upcomming_event .table.table-striped.table-bordered td {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none !important;
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+#upcomming_event .table.table-striped thead {
+    display: none;
+}
+#calendar .fc-basic-view td.fc-day-number, #calendar .fc-basic-view td.fc-week-number span {
+    padding-right: 10px;
+}
+#upcomming_event .table.table-striped.table-bordered {
+    border: medium none;
+}
+
+#upcomming_event .event-color {
+    border-radius: 10px;
+    float: left;
+    height: 10px;
+    margin-right: 6px;
+    margin-top: 6px;
+    width: 10px;
+}
+#upcomming_event .external-event {
+    cursor: pointer;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+#upcomming_event .table-striped > tbody > tr {
+    background-color: #f9f9f9;
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.box-title.pull-right.list {
+    background-image: url("../image/view-grid-list.jpg");
+    background-position: 136px 94px;
+    background-size: 100px auto;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+.box-title.pull-right.grid {
+    background-image: url("../image/view-grid-list.jpg");
+    background-position: 194px 94px;
+    background-size: 100px auto;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.box-title.pull-right.list:hover, .box-title.pull-right.list.active {
+    background-image: url("../image/view-grid-list-hover.jpg");
+}
+.box-title.pull-right.grid:hover {
+    background-image: url("../image/view-grid-list-hover.jpg");
+}
+/*manage game section css*/   
+*.selected_game {
+    float: left;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    position: relative;
+    width: 18%;
+
+}
+.my-show {
+    display: none;
+}
+.my-show.active {
+    display: block;
+}
+.selected_game .fa.fa-check {
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: white;
+    left: 37%;
+    opacity: 1;
+    padding: 17px 10px;
+    position: absolute;
+    text-align: center;
+    top: 36%;
+    z-index: 999;
+}
+.selected_shadow_text {
+    color: #fff;
+    font-size: 20px;
+    left: 26%;
+    opacity: 1;
+    position: absolute;
+    top: 55%;
+    z-index: 99;
+}
+.selected_shadow {
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+}
+.selected_game > img {
+    cursor: pointer;
+    max-width: 100%;
+}
+.banner1
+{
+	padding-left:15px;
+}
+.disabled.day {
+    background: #edede7 none repeat scroll 0 0 !important;
+}
+.col-md-6.team{
+    text-align: right;
+}
+.col-md-6.emails{
+    text-align: right;
+}
+.update_game .box-header.with-border {
+    cursor: pointer;
+}
+.update_game .box-header .fa {
+    color: #777777;
+    font-size: 12px;
+    margin-top: 5px;
+}
+img.highfive {
+    margin-top: 7px;
+    width: 42px;
+}
+.icon_width2 .fa.fa-share-alt {
+    font-size: 47px;
+}
+.icon_width .fa.fa-calendar-check-o {
+    font-size: 42px;
+}
+/*leadership corner edit form image loader css*/
+.fa.fa-refresh.fa-spin.imageloader {
+    font-size: 34px;
+    left: 6%;
+    position: absolute;
+    top: 20%;
+    display:none;
+}
+.fa.fa-refresh.fa-spin.imageloaderdash {
+    font-size: 34px;
+    left: 6%;
+    position: absolute;
+    top: 20%;
+    display:none;
+}
+.loadingtext {
+    left: 4%;
+    position: absolute;
+    top: 63%;
+    display:none;
+}
+.loadingtextdash {
+    left: 4%;
+    position: absolute;
+    top: 63%;
+    display:none;
+}
+/*pilot leadership corner on add corner popup*/
+.form-group.field-pilotleadershipcorner-category_id {
+    display: none;
+}
+/*hide the field on leadership edit popup to get the id*/
+.form-group.field-leadership_id {
+    display: none;
+}
+/*hide core values of popup display after company selection by js on core values in content*/
+.show_corevalues{
+    display:none;
+}
+.fa{
+    line-height: 0px;
+}
+/*used to show all required field*/
+span.required { 
+    margin-left: 3px;
+}
+.list-points a{
+    color: #444;
+    text-decoration: underline;
+}
+.col-md-12.makeupdays p:nth-child(2n+1),.col-md-12.makupdays.game-makeup-days p:nth-child(2n+1) {
+  padding-left: 15px;
+}
+/* 14 sep changes  */.dz-image:hover .cross .error{display:block}.dz-image:hover .cross .check1{display:none}.dz-image:hover img:first-child{opacity:0.3}.dz-success-mark {	display:none !important;}.dz-error-message {	display:none !important;}.dz-error-mark svg{	display:none !important;}.cross {	position:absolute;	top:47px;	left:46px;    z-index:999;}.cross .error1{z-index:999}.dropzone{	margin-bottom:0px !important;}.cross .check1 {display:block;}.cross .error {display:none;}.dz-error-message{	top:-35px !important;}.cross img {    cursor: pointer !important;	opacity:1 !important;}
+.digital_high_five .red {
+    float: none;
+	background:none;
+	color:#000;
+}
+.digital_high_five .red a {
+    float: none;
+    background: none;
+    text-decoration: underline;
+}
+.digital_high_five .table.table-striped.table-bordered tbody a {
+  text-decoration: underline;
+}
+.ajax-timezone > img {
+  left: 15px;
+  position: absolute;
+  top: 28px;
+  width: 28px;
+  display: none;
+}
+.ajax-timezone {
+  position: relative;
+}
+.delete_icon
+{
+    width:355px;
+    text-align:right;
+}
+.cmpnyLink a {
+  color: #337ab7 !important;
+  padding: 0 !important;
+}
+.my-show1 {
+    display: none;
+}
+.my-show1.active {
+    display: block;
+}
+.selected_game1 {
+    float: left;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    position: relative;
+    width: 23%;
+}
+.selected_game1 .fa.fa-check {
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: white;
+    left: 33%;
+    opacity: 1;
+    padding: 17px 10px;
+    position: absolute;
+    text-align: center;
+    top: 32%;
+    z-index: 999;
+}
+.selected_shadow_text1 {
+    color: #fff;
+    font-size: 18px;
+    left: 22%;
+    opacity: 1;
+    position: absolute;
+    top: 64%;
+    z-index: 99;
+}
+.selected_shadow1 {
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+}
+.selected_game1 > img {
+    cursor: pointer;
+    max-width: 100%;
+    width:100px;
+}
+.pilot_checkin_yourself_categories #add_core_values .form-group.field-pilotcheckinyourselfdata-category_id {
+  display: none;
+}
+.sprattar {
+  background: #ccc none repeat scroll 0 0;
+  float: left;
+  height: 1px;
+  margin: 10px 0 10px 15px;
+  width: calc(100% - 30px);
+}
+#cke_pilotcompanycorevaluesname-vission_msg .cke_combo.cke_combo__styles.cke_combo_off, #cke_pilotcompanycorevaluesname-vission_msg .cke_combo.cke_combo__format.cke_combo_off, #cke_pilotcompanycorevaluesname-vission_msg .cke_combo.cke_combo__font.cke_combo_off {
+  display: none;
+}
+#cke_pilotprizescategory-prize_content .cke_top.cke_reset_all, #cke_pilotprizescategory-prize_content .cke_bottom.cke_reset_all{
+  display: none;
+}
+#cke_pilotprizescategory-prize_content .cke_contents.cke_reset {
+  height: 500px !important;
+}
+.pilot-corevalues-manage .field-pilotcompanycorevaluesname-company_id{ display:none;}
+.cross-wrapper > a {
+  border: 1px solid;
+  color: #ccc;
+  float: right;
+  margin-right: 15px;
+  padding: 0 5px;
+}
+.cross-wrapper > a:hover{
+    color: #888;
+}
+.cross-wrapper {
+  float: left;
+  width: 100%;
+}
+
+.pilot-corevalues-manage .field-pilotcompanycorevaluesname-company_id{ display:none;}
+#cke_pilothowitwork-how_it_work_content .cke_top.cke_reset_all, #cke_pilothowitwork-how_it_work_content .cke_bottom.cke_reset_all {
+  /*display: none;*/
+}
+#cke_pilothowitwork-how_it_work_content .cke_contents.cke_reset{
+    height: 3000px !important;
+}
+canvas#myCanvas {
+  height: 120px;
+}
+@media screen and (max-width: 1400px) and (min-width: 1301px) {
+   .selected_game1 > img {
+    width:115px;
+}
+.selected_game1 .fa.fa-check
+{
+    top:25%;
+}
+}
+@media screen and (max-width: 1300px) {
+   .selected_game1 > img {
+    width:90px;
+}
+.selected_game1 .fa.fa-check
+{
+    top:25%;
+}
+.selected_shadow_text1
+{
+    left:15%;
+}
+}

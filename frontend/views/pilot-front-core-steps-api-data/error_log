@@ -1,0 +1,14 @@
+[13-Oct-2017 19:30:22 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[14-Oct-2017 14:42:41 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[14-Oct-2017 16:21:04 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[22-Oct-2017 11:01:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[02-Nov-2017 09:06:28 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[05-Nov-2017 23:22:59 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[26-Nov-2017 20:23:46 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[29-Nov-2017 02:56:25 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[29-Nov-2017 23:42:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[30-Nov-2017 10:31:01 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[04-Dec-2017 09:40:07 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[10-Apr-2018 14:56:33 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[12-Apr-2018 21:20:44 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10
+[12-May-2018 10:32:28 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/pilot-front-core-steps-api-data/index.php on line 10

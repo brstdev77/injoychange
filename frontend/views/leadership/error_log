@@ -1,0 +1,13 @@
+[13-Oct-2017 19:29:51 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5
+[14-Oct-2017 14:42:10 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5
+[14-Oct-2017 16:21:46 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5
+[22-Oct-2017 11:01:04 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5
+[02-Nov-2017 09:06:00 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5
+[05-Nov-2017 01:25:03 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5
+[13-Nov-2017 00:05:47 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5
+[20-Nov-2017 12:16:56 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5
+[23-Nov-2017 10:05:37 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5
+[24-Nov-2017 06:18:21 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5
+[25-Jan-2018 16:51:53 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5
+[05-Apr-2018 23:19:25 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5
+[12-May-2018 10:32:25 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/frontend/views/leadership/index.php on line 5

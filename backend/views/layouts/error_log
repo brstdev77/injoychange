@@ -1,0 +1,14 @@
+[22-Oct-2017 09:48:07 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[02-Nov-2017 01:55:42 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[05-Nov-2017 17:32:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[19-Nov-2017 08:00:42 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[22-Nov-2017 22:49:48 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[28-Nov-2017 05:33:28 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[30-Nov-2017 16:28:27 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[06-Dec-2017 17:53:10 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[17-Dec-2017 01:45:54 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[17-Dec-2017 10:50:42 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[18-Dec-2017 12:45:42 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[03-Apr-2018 17:05:57 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[04-Apr-2018 00:35:12 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10
+[12-May-2018 10:31:18 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/layouts/index.php on line 10

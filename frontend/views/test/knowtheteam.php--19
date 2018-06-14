@@ -1,0 +1,306 @@
+<?php
+/* @var $this yii\web\View */
+
+$this->title = "See All | Get to Know the Team";
+$baseurl = Yii::$app->request->baseurl;
+$j = 0;
+$k = 0;
+?>
+<?php
+$this->registerCssFile($baseurl . '/css/seeall.css');
+?>
+<div class="site-index">
+    <div class="seeall-data">
+        <div class="dashboard-title"><div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 dashboard-link"><a class="btn btn-warning dashboard" href="<?= $baseurl; ?>/learning/dashboard">&lt; Dashboard</a></div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 high-five-title">GET TO KNOW THE TEAM</div>
+        </div>
+        <div class="toolbox-outer">
+            <?php if ($tip == 'Week 1-three'): ?>
+                <?php //three data start?>
+                <div class="toolbox-row even">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="http://injoyglobal.com/wp-content/uploads/2017/02/^54A8FF015CA2AE515A5756B92BB06F3DC274C9D225BC0C8767^pimgpsh_fullsize_distr.jpg">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Phil Dixon</strong>
+                        </p>
+                        <p class="user_hobby">Try Again!  Phil did not say that.</p>
+                        <p class="hobby_description">I did run with the Bulls in Pamplona, Spain.</p>
+                    </div> 
+                </div>
+                <div class="toolbox-row odd">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/uploads/1512029219_5a1fbc2342032.png">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Pradeep Kumar</strong>
+                        </p>
+                        <p class="user_hobby">Pradeep's favorite thing to do outside of work  is visiting new places.</p>
+                        <p class="hobby_description">While I Visit on new places always make me fresh and I feel happy. I love to meet new people and learn about their culture.</p>
+                    </div> 
+                </div>
+                <div class="toolbox-row even">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/uploads/1509688959_59fc067f478f7.png">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Kunal Khullar</strong>
+                        </p>
+                        <p class="user_hobby">Try Again! Kunal did not say that.</p>
+                        <p class="hobby_description">My trip to US with my family was special. We got to visit a beautiful country and spend time great people.  My family was with me so it was really special.</p>
+                    </div> 
+                </div>
+                <?php //three data end?>
+                <?php //second data start?>
+                <div class="toolbox-row odd">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="http://injoyglobal.com/wp-content/uploads/2017/02/6.jpg">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Elly Bannon</strong>
+                        </p>
+                        <p class="user_hobby">Elly does not have a cat that sings.</p>
+                        <p class="hobby_description">I have 1 pug named, Pearl and 1 cat named Skippy that live in NH and 1 fluffy kitten named Ollie that lives with me here in CA. Ollie just turned 3 and is my registered emotional support pet.</p>
+                        <div class="hobby_image">
+                            <img alt="user" title="Image" src="/images/elly_Cats.png">
+                        </div>
+                    </div> 
+                </div>
+                <div class="toolbox-row even">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="http://injoyglobal.com/wp-content/uploads/2017/02/7.jpg">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Clea Martin</strong>
+                        </p>
+                        <p class="user_hobby">Clea has singing cats.</p>
+                        <p class="hobby_description">I have two cute and hilarious cats (Miko & Aria). I've had them for about 6 years! My favorite thing about them is that they sing back to me when I'm singing. Miko's favorite song to sing is Hakuna Matata because it sounds like the word "tuna" which he loves!</p>
+                        <div class="hobby_image">
+                            <img alt="user" title="Image" src="/images/clea_cats.png">
+                        </div>
+                    </div> 
+                </div>
+                <div class="toolbox-row odd">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/images/veerdaman.JPG">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>VeerDaman Singh</strong>
+                        </p>
+                        <p class="user_hobby">Veer Daman does not have a cat that sings.</p>
+                        <p class="hobby_description">I have a dog who is a German Spitz.</p>
+                        <div class="hobby_image">
+                            <img alt="user" title="Image" src="/images/verrdamar_dog.png">
+                        </div>
+                    </div> 
+                </div>
+                <?php //Ist data end?>
+                <div class="toolbox-row even">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/images/tushar.jpg">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Tushar Watts</strong>
+                        </p>
+                        <p class="user_hobby">Tushar does play cricket.</p>
+                        <p class="hobby_description">I enjoy the sportsmanship and aura of the game.</p>
+                    </div> 
+                </div>
+                <div class="toolbox-row odd">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/images/ryan.png">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Ryan Waranauskas</strong>
+                        </p>
+                        <p class="user_hobby">Ryan's favorite thing to do outside of work  is enjoying play guitar.</p>
+                        <p class="hobby_description">I enjoy the freedom of expression and the ability to "speak another language" alongside other musicians. It is a unique bond that has not only created some of my favorite memories, but also ignited some of my closest friendships in my life so far. </p>
+                    </div> 
+                </div>
+                <div class="toolbox-row even">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/images/Abhipray.jpg">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Abhipray Gupta</strong>
+                        </p>
+                        <p class="user_hobby">Abhipray enjoys spending time with Family.</p>
+                        <p class="hobby_description">If you get enough time to spend with you family in you daily routine life you are the luckiest person in the world I try to spend most of my free time with my family. discuss with them how to make personal life better and more enjoyable.</p>
+                    </div> 
+                </div>
+            <?php endif; ?>
+            <?php if ($tip == 'Week 1-two'): ?>
+                <?php //second data start?>
+                <div class="toolbox-row even">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="http://injoyglobal.com/wp-content/uploads/2017/02/6.jpg">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Elly Bannon</strong>
+                        </p>
+                        <p class="user_hobby">Elly does not have a cat that sings.</p>
+                        <p class="hobby_description">I have 1 pug named, Pearl and 1 cat named Skippy that live in NH and 1 fluffy kitten named Ollie that lives with me here in CA. Ollie just turned 3 and is my registered emotional support pet.</p>
+                        <div class="hobby_image">
+                            <img alt="user" title="Image" src="/images/elly_Cats.png">
+                        </div>
+                    </div> 
+                </div>
+                <div class="toolbox-row odd">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="http://injoyglobal.com/wp-content/uploads/2017/02/7.jpg">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Clea Martin</strong>
+                        </p>
+                        <p class="user_hobby">Clea has singing cats.</p>
+                        <p class="hobby_description">I have two cute and hilarious cats (Miko & Aria). I've had them for about 6 years! My favorite thing about them is that they sing back to me when I'm singing. Miko's favorite song to sing is Hakuna Matata because it sounds like the word "tuna" which he loves!</p>
+                        <div class="hobby_image">
+                            <img alt="user" title="Image" src="/images/clea_cats.png">
+                        </div>
+                    </div> 
+                </div>
+                <div class="toolbox-row even">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/images/veerdaman.JPG">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>VeerDaman Singh</strong>
+                        </p>
+                        <p class="user_hobby">Veer Daman does not have a cat that sings.</p>
+                        <p class="hobby_description">I have a dog who is a German Spitz.</p>
+                        <div class="hobby_image">
+                            <img alt="user" title="Image" src="/images/verrdamar_dog.png">
+                        </div>
+                    </div> 
+                </div>
+
+                <?php //second data end?>
+                <div class="toolbox-row odd">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/images/tushar.jpg">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Tushar Watts</strong>
+                        </p>
+                        <p class="user_hobby">Tushar does play cricket.</p>
+                        <p class="hobby_description">I enjoy the sportsmanship and aura of the game.</p>
+                    </div> 
+                </div>
+                <div class="toolbox-row even">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/images/ryan.png">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Ryan Waranauskas</strong>
+                        </p>
+                        <p class="user_hobby">Ryan's favorite thing to do outside of work  is enjoying play guitar.</p>
+                        <p class="hobby_description">I enjoy the freedom of expression and the ability to "speak another language" alongside other musicians. It is a unique bond that has not only created some of my favorite memories, but also ignited some of my closest friendships in my life so far. </p>
+                    </div> 
+                </div>
+                <div class="toolbox-row odd">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/images/Abhipray.jpg">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Abhipray Gupta</strong>
+                        </p>
+                        <p class="user_hobby">Abhipray enjoys spending time with Family.</p>
+                        <p class="hobby_description">If you get enough time to spend with you family in you daily routine life you are the luckiest person in the world I try to spend most of my free time with my family. discuss with them how to make personal life better and more enjoyable.</p>
+                    </div> 
+                </div>
+            <?php endif; ?>
+            <?php if ($tip == 'Week 1-one'): ?>
+                <div class="toolbox-row even">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/images/tushar.jpg">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Tushar Watts</strong>
+                        </p>
+                        <p class="user_hobby">Tushar does play cricket.</p>
+                        <p class="hobby_description">I enjoy the sportsmanship and aura of the game.</p>
+                    </div> 
+                </div>
+                <div class="toolbox-row odd">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/images/ryan.png">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Ryan Waranauskas</strong>
+                        </p>
+                        <p class="user_hobby">Ryan's favorite thing to do outside of work  is enjoying play guitar.</p>
+                        <p class="hobby_description">I enjoy the freedom of expression and the ability to "speak another language" alongside other musicians. It is a unique bond that has not only created some of my favorite memories, but also ignited some of my closest friendships in my life so far. </p>
+                    </div> 
+                </div>
+                <div class="toolbox-row even">      
+                    <div class="toolbox-left-content">
+                        <div class="image">
+                            <img alt=user title=Image src="/images/Abhipray.jpg">
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>Abhipray Gupta</strong>
+                        </p>
+                        <p class="user_hobby">Abhipray enjoys spending time with Family.</p>
+                        <p class="hobby_description">If you get enough time to spend with you family in you daily routine life you are the luckiest person in the world I try to spend most of my free time with my family. discuss with them how to make personal life better and more enjoyable.</p>
+                    </div> 
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+    <a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up"></i></a>  
+</div>
+<?php $this->registerJsFile($baseurl . "/js/scroll.js", ['position' => yii\web\View::POS_END, 'depends' => ['yii\web\JqueryAsset']]); ?>
+<?php $this->registerJsFile($baseurl . "/js/score.js", ['position' => yii\web\View::POS_END, 'depends' => ['yii\web\JqueryAsset']]); ?>

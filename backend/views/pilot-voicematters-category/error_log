@@ -1,0 +1,35 @@
+[22-Oct-2017 09:48:41 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 11
+[02-Nov-2017 01:56:27 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 11
+[03-Nov-2017 16:40:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 11
+[17-Dec-2017 02:42:39 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[17-Dec-2017 11:32:20 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[18-Dec-2017 13:27:19 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[26-Jan-2018 11:00:58 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[27-Jan-2018 13:40:46 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[27-Jan-2018 18:55:07 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[28-Jan-2018 00:50:49 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[28-Jan-2018 08:28:25 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[01-Feb-2018 17:02:05 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[08-Feb-2018 01:33:26 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[14-Feb-2018 12:47:30 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[14-Feb-2018 15:54:46 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[21-Feb-2018 01:42:51 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[04-Mar-2018 00:37:49 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[04-Mar-2018 18:35:01 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[11-Mar-2018 16:17:22 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[21-Mar-2018 13:05:01 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[31-Mar-2018 17:11:47 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[08-Apr-2018 11:15:23 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[09-Apr-2018 03:34:26 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[09-Apr-2018 22:31:17 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[10-Apr-2018 21:34:32 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[21-Apr-2018 02:54:19 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[24-Apr-2018 15:59:21 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[24-Apr-2018 15:59:21 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[24-Apr-2018 15:59:23 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[24-Apr-2018 15:59:25 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoymore/public_html/backend/views/pilot-weekly-category/index.php on line 12
+[04-May-2018 06:29:29 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-voicematters-category/index.php on line 12
+[07-May-2018 17:42:21 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-voicematters-category/index.php on line 12
+[12-May-2018 10:31:41 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-voicematters-category/index.php on line 12
+[12-May-2018 15:01:24 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-voicematters-category/index.php on line 12
+[20-May-2018 16:37:38 UTC] PHP Fatal error:  Class 'Yii' not found in /home/injoychange/public_html/backend/views/pilot-voicematters-category/index.php on line 12
